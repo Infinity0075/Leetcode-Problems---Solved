@@ -1,36 +1,56 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 class Solution {
 public:
     string minWindow(string s, string t) {
-        unordered_map<char,int> mpp;
-        int ctr = 0;
-        for (char c : t){
-            mpp[c]++;
-            ctr++;
+        if (s.size() < t.size()) return "";
+
+        vector<int> need(128, 0);
+        vector<int> window(128, 0);
+
+        for (char c : t) {
+            need[c]++;
         }
-        int n = s.length();
-        int low = -1, high = n;
+
+        int required = 0;
+        for (int i = 0; i < 128; i++) {
+            if (need[i] > 0) required++;
+        }
+
+        int formed = 0;
         int l = 0, r = 0;
-        
-        while (r<n){
-            auto it = mpp.find(s[r]);
-            if (it != mpp.end()){
-                if (mpp[s[r]]>0) ctr--;
-                mpp[s[r]]--;
+
+        int minLen = INT_MAX;
+        int start = 0;
+
+        while (r < (int)s.size()) {
+            char c = s[r];
+            window[c]++;
+
+            if (need[c] > 0 && window[c] == need[c]) {
+                formed++;
             }
-            while (ctr==0){
-                if ((r-l)<=(high-low)){
-                    low = l;
-                    high = r;
+
+            while (l <= r && formed == required) {
+                if (r - l + 1 < minLen) {
+                    minLen = r - l + 1;
+                    start = l;
                 }
-                if (mpp.find(s[l])!=mpp.end()){
-                    mpp[s[l]]++;
-                    if (mpp[s[l]]>0) ctr++;
+
+                char leftChar = s[l];
+                window[leftChar]--;
+
+                if (need[leftChar] > 0 && window[leftChar] < need[leftChar]) {
+                    formed--;
                 }
+
                 l++;
             }
+
             r++;
         }
-        if (low == -1) return "";
-        return s.substr(low,high-low+1);
+
+        return (minLen == INT_MAX) ? "" : s.substr(start, minLen);
     }
 };
