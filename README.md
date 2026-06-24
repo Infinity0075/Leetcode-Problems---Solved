@@ -6,6 +6,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Dynamic Programming
 |  |
 | ------- |
+| [0053-maximum-subarray](https://github.com/Infinity0075/Leetcode-Problems---Solved/tree/master/0053-maximum-subarray) |
 | [3699-number-of-zigzag-arrays-i](https://github.com/Infinity0075/Leetcode-Problems---Solved/tree/master/3699-number-of-zigzag-arrays-i) |
 | [3700-number-of-zigzag-arrays-ii](https://github.com/Infinity0075/Leetcode-Problems---Solved/tree/master/3700-number-of-zigzag-arrays-ii) |
 ## Prefix Sum
@@ -17,6 +18,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0001-two-sum](https://github.com/Infinity0075/Leetcode-Problems---Solved/tree/master/0001-two-sum) |
 | [0036-valid-sudoku](https://github.com/Infinity0075/Leetcode-Problems---Solved/tree/master/0036-valid-sudoku) |
+| [0053-maximum-subarray](https://github.com/Infinity0075/Leetcode-Problems---Solved/tree/master/0053-maximum-subarray) |
 ## Hash Table
 |  |
 | ------- |
@@ -42,4 +44,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [3700-number-of-zigzag-arrays-ii](https://github.com/Infinity0075/Leetcode-Problems---Solved/tree/master/3700-number-of-zigzag-arrays-ii) |
+## Divide and Conquer
+|  |
+| ------- |
+| [0053-maximum-subarray](https://github.com/Infinity0075/Leetcode-Problems---Solved/tree/master/0053-maximum-subarray) |
 <!---LeetCode Topics End-->
