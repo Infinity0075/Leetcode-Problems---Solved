@@ -1,15 +1,41 @@
 class Solution {
 public:
-    bool wordPattern(string pattern, string str) {
-        map<char, int> p2i;
-        map<string, int> w2i;
-        istringstream in(str);
-        int i = 0, n = pattern.size();
-        for (string word; in >> word; ++i) {
-            if (i == n || p2i[pattern[i]] != w2i[word])
-                return false;
-            p2i[pattern[i]] = w2i[word] = i + 1;
+void newstrS(string s,vector<string>&word){
+    
+    string str="";
+    for(int i=0;i<s.size();i++){
+        if(s[i]==' '){
+            word.push_back(str);
+            str="";
         }
-        return i == n;
+        else if(s[i]!=' '){
+            str=str+s[i];
+        }
+    }
+    word.push_back(str);
+}
+    bool wordPattern(string pattern, string s) {
+        unordered_map<char,string>mp1;
+        unordered_map<string,char>mp2;
+        vector<string>word;
+        newstrS(s,word);
+        if(pattern.size()!=word.size()){
+            return false;
+        } 
+        for(int i=0;i<pattern.size();i++){
+            char firch=pattern[i];
+           string secword=word[i];
+           if(!mp1.count(firch)&&!mp2.count(secword)){
+            mp1[firch]=secword;
+            mp2[secword]=firch;
+
+           }
+           else{
+            if(mp1[firch]!=secword|| mp2[secword]!=firch){
+                return false;
+            }
+           }
+        }
+        return true;
     }
 };
