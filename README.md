@@ -26,6 +26,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0030-substring-with-concatenation-of-all-words](https://github.com/Infinity0075/Leetcode-Problems---Solved/tree/master/0030-substring-with-concatenation-of-all-words) |
 | [0036-valid-sudoku](https://github.com/Infinity0075/Leetcode-Problems---Solved/tree/master/0036-valid-sudoku) |
 | [0076-minimum-window-substring](https://github.com/Infinity0075/Leetcode-Problems---Solved/tree/master/0076-minimum-window-substring) |
+| [0290-word-pattern](https://github.com/Infinity0075/Leetcode-Problems---Solved/tree/master/0290-word-pattern) |
 ## Matrix
 |  |
 | ------- |
@@ -35,6 +36,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0030-substring-with-concatenation-of-all-words](https://github.com/Infinity0075/Leetcode-Problems---Solved/tree/master/0030-substring-with-concatenation-of-all-words) |
 | [0076-minimum-window-substring](https://github.com/Infinity0075/Leetcode-Problems---Solved/tree/master/0076-minimum-window-substring) |
+| [0290-word-pattern](https://github.com/Infinity0075/Leetcode-Problems---Solved/tree/master/0290-word-pattern) |
 ## Sliding Window
 |  |
 | ------- |
