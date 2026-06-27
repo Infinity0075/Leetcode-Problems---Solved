@@ -1,41 +1,50 @@
+const int LIMIT = 31'623; // sqrt(1e9)
+
 class Solution {
 public:
     int maximumLength(vector<int>& nums) {
-        unordered_map<long long, int> mp;
+        bitset<LIMIT> freq1, freq2, sqset;
 
-        for (int x : nums)
-            mp[x]++;
-
-        int ans = 1;
-
-        // Handle 1 separately
-        if (mp.count(1)) {
-            int cnt = mp[1];
-            ans = max(ans, cnt % 2 ? cnt : cnt - 1);
-        }
-
-        for (auto &[num, f] : mp) {
-            if (num == 1) continue;
-
-            long long x = num;
-            int len = 0;
-
-            while (mp.count(x) && mp[x] >= 2) {
-                len += 2;
-
-                if (x > 1e9) break; // avoid overflow
-                x = x * x;
+        int ones = 0, minv = LIMIT, maxv = 0;
+        for (int v : nums) {
+            if (v == 1)
+                ones++;
+            else if (v < LIMIT) {
+                if (!freq1[v]) {
+                    freq1[v] = 1;
+                } else {
+                    freq2[v] = 1;
+                    minv = min(minv, v);
+                    maxv = max(maxv, v);
+                }
+            } else {
+                int r = sqrt(v);
+                if (r * r == v)
+                    sqset[r] = 1;
             }
-
-            if (mp.count(x))
-                len++;
-
-            else
-                len--;
-
-            ans = max(ans, len);
         }
 
-        return ans;
+        int maxlen = max(1, ones - (1 - ones & 1));
+
+        auto get = [&](long long v) -> int {
+            if (v < LIMIT)
+                return freq1[v] + freq2[v];
+            int r = sqrt(v);
+            return r * r == v && r < LIMIT && sqset[r];
+        };
+
+        for (int i = minv; i <= maxv; i++) {
+            if (freq2[i]) {
+                int x = i;
+                int currlen = 0, f = get(x);
+                while (f > 1) {
+                    currlen++;
+                    x *= x;
+                    f = get(x);
+                }
+                maxlen = max(maxlen, 2 * (currlen + f) - 1);
+            }
+        }
+        return maxlen;
     }
 };
