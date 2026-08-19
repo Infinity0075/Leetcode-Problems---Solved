@@ -21,6 +21,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0001-two-sum](https://github.com/Infinity0075/Leetcode-Problems---Solved/tree/master/0001-two-sum) |
 | [0036-valid-sudoku](https://github.com/Infinity0075/Leetcode-Problems---Solved/tree/master/0036-valid-sudoku) |
 | [0053-maximum-subarray](https://github.com/Infinity0075/Leetcode-Problems---Solved/tree/master/0053-maximum-subarray) |
+| [1386-cinema-seat-allocation](https://github.com/Infinity0075/Leetcode-Problems---Solved/tree/master/1386-cinema-seat-allocation) |
 | [1846-maximum-element-after-decreasing-and-rearranging](https://github.com/Infinity0075/Leetcode-Problems---Solved/tree/master/1846-maximum-element-after-decreasing-and-rearranging) |
 | [1967-number-of-strings-that-appear-as-substrings-in-word](https://github.com/Infinity0075/Leetcode-Problems---Solved/tree/master/1967-number-of-strings-that-appear-as-substrings-in-word) |
 | [3020-find-the-maximum-number-of-elements-in-subset](https://github.com/Infinity0075/Leetcode-Problems---Solved/tree/master/3020-find-the-maximum-number-of-elements-in-subset) |
@@ -35,6 +36,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0076-minimum-window-substring](https://github.com/Infinity0075/Leetcode-Problems---Solved/tree/master/0076-minimum-window-substring) |
 | [0290-word-pattern](https://github.com/Infinity0075/Leetcode-Problems---Solved/tree/master/0290-word-pattern) |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/Infinity0075/Leetcode-Problems---Solved/tree/master/1358-number-of-substrings-containing-all-three-characters) |
+| [1386-cinema-seat-allocation](https://github.com/Infinity0075/Leetcode-Problems---Solved/tree/master/1386-cinema-seat-allocation) |
 | [3020-find-the-maximum-number-of-elements-in-subset](https://github.com/Infinity0075/Leetcode-Problems---Solved/tree/master/3020-find-the-maximum-number-of-elements-in-subset) |
 | [3737-count-subarrays-with-majority-element-i](https://github.com/Infinity0075/Leetcode-Problems---Solved/tree/master/3737-count-subarrays-with-majority-element-i) |
 | [3739-count-subarrays-with-majority-element-ii](https://github.com/Infinity0075/Leetcode-Problems---Solved/tree/master/3739-count-subarrays-with-majority-element-ii) |
@@ -87,9 +89,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Greedy
 |  |
 | ------- |
+| [1386-cinema-seat-allocation](https://github.com/Infinity0075/Leetcode-Problems---Solved/tree/master/1386-cinema-seat-allocation) |
 | [1846-maximum-element-after-decreasing-and-rearranging](https://github.com/Infinity0075/Leetcode-Problems---Solved/tree/master/1846-maximum-element-after-decreasing-and-rearranging) |
 ## Sorting
 |  |
 | ------- |
 | [1846-maximum-element-after-decreasing-and-rearranging](https://github.com/Infinity0075/Leetcode-Problems---Solved/tree/master/1846-maximum-element-after-decreasing-and-rearranging) |
+## Bit Manipulation
+|  |
+| ------- |
+| [1386-cinema-seat-allocation](https://github.com/Infinity0075/Leetcode-Problems---Solved/tree/master/1386-cinema-seat-allocation) |
 <!---LeetCode Topics End-->
