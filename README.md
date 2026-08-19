@@ -7,6 +7,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0053-maximum-subarray](https://github.com/Infinity0075/Leetcode-Problems---Solved/tree/master/0053-maximum-subarray) |
+| [0486-predict-the-winner](https://github.com/Infinity0075/Leetcode-Problems---Solved/tree/master/0486-predict-the-winner) |
 | [3699-number-of-zigzag-arrays-i](https://github.com/Infinity0075/Leetcode-Problems---Solved/tree/master/3699-number-of-zigzag-arrays-i) |
 | [3700-number-of-zigzag-arrays-ii](https://github.com/Infinity0075/Leetcode-Problems---Solved/tree/master/3700-number-of-zigzag-arrays-ii) |
 ## Prefix Sum
@@ -21,6 +22,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0001-two-sum](https://github.com/Infinity0075/Leetcode-Problems---Solved/tree/master/0001-two-sum) |
 | [0036-valid-sudoku](https://github.com/Infinity0075/Leetcode-Problems---Solved/tree/master/0036-valid-sudoku) |
 | [0053-maximum-subarray](https://github.com/Infinity0075/Leetcode-Problems---Solved/tree/master/0053-maximum-subarray) |
+| [0486-predict-the-winner](https://github.com/Infinity0075/Leetcode-Problems---Solved/tree/master/0486-predict-the-winner) |
 | [1386-cinema-seat-allocation](https://github.com/Infinity0075/Leetcode-Problems---Solved/tree/master/1386-cinema-seat-allocation) |
 | [1846-maximum-element-after-decreasing-and-rearranging](https://github.com/Infinity0075/Leetcode-Problems---Solved/tree/master/1846-maximum-element-after-decreasing-and-rearranging) |
 | [1967-number-of-strings-that-appear-as-substrings-in-word](https://github.com/Infinity0075/Leetcode-Problems---Solved/tree/master/1967-number-of-strings-that-appear-as-substrings-in-word) |
@@ -61,6 +63,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Math
 |  |
 | ------- |
+| [0486-predict-the-winner](https://github.com/Infinity0075/Leetcode-Problems---Solved/tree/master/0486-predict-the-winner) |
 | [3700-number-of-zigzag-arrays-ii](https://github.com/Infinity0075/Leetcode-Problems---Solved/tree/master/3700-number-of-zigzag-arrays-ii) |
 ## Divide and Conquer
 |  |
@@ -99,4 +102,20 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1386-cinema-seat-allocation](https://github.com/Infinity0075/Leetcode-Problems---Solved/tree/master/1386-cinema-seat-allocation) |
+## Recursion
+|  |
+| ------- |
+| [0486-predict-the-winner](https://github.com/Infinity0075/Leetcode-Problems---Solved/tree/master/0486-predict-the-winner) |
+## Minimax
+|  |
+| ------- |
+| [0486-predict-the-winner](https://github.com/Infinity0075/Leetcode-Problems---Solved/tree/master/0486-predict-the-winner) |
+## Game Theory
+|  |
+| ------- |
+| [0486-predict-the-winner](https://github.com/Infinity0075/Leetcode-Problems---Solved/tree/master/0486-predict-the-winner) |
+## Zero-Sum Game
+|  |
+| ------- |
+| [0486-predict-the-winner](https://github.com/Infinity0075/Leetcode-Problems---Solved/tree/master/0486-predict-the-winner) |
 <!---LeetCode Topics End-->
